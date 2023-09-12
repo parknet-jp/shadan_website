@@ -1,0 +1,36 @@
+baseURL = 'https://shadan.open.ad.jp/'
+languageCode = 'ja-jp'
+title = 'サイバー技術・インターネット自由研究会'
+theme = "etch"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "一般社団法人サイバー技術・インターネット自由研究会のWebサイト"
+  copyright = "Copyright © 2023 一般社団法人サイバー技術・インターネット自由研究会"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "お知らせ"
+    title = "お知らせ"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "法人概要"
+    title = "法人概要"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
+
