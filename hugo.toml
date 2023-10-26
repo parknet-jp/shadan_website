@@ -27,6 +27,13 @@ pygmentsUseClasses = true
     url = "/about/"
     weight = 20
 
+  [[menu.main]]
+    identifier = "members"
+    name = "会員向け"
+    title = "会員向け"
+    url = "/members/"
+    weight = 30
+
 [permalinks]
   posts = "/:title/"
 
